@@ -1,6 +1,6 @@
 # 258 STRUCT 🫠
 
-**Ải 7:** Bài tập thực hành 5 - `258 Struct`
+**Ải 7:** Bài tập thực hành 5 - `258 Struct` _(19 + 238)_
 
 ---
 
