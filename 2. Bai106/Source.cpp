@@ -85,7 +85,7 @@ int SoThuTu(NGAY x)
 	int stt = 0;
 	for (int i = 1; i <= x.Nam - 1; i++)
 	{
-		NGAY temp = {1, 1, i};
+		NGAY temp = {0, 13, i};
 		stt += SoThuTuTrongNam(temp);
 	}
 	stt += SoThuTuTrongNam(x);
