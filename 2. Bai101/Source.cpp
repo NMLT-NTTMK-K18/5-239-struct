@@ -25,6 +25,9 @@ int main()
 	cout << "Nhap ngay D: " << endl;
 	Nhap(D);
 
+	cout << "Thu cua ngay D la: ";
+	XuatThu(D);
+
 	return 0;
 }
 
