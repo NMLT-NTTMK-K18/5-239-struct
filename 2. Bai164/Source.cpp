@@ -109,5 +109,5 @@ DATHUC Thuong(DATHUC f, DATHUC g)
 		DATHUC tru = tg * bichia;
 		temp = temp + tg;
 	}
-	return temp;
+	return f * g - temp;
 }
