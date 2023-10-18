@@ -22,3 +22,15 @@
 |    3    | Nguyễn Thái Gia Nguyễn |        [NTGNguyen](https://github.com/NTGNguyen)        | 23521049 |
 |    4    | Ngô Minh Huy           |      [MinhHuy1507](https://github.com/MinhHuy1507)      | 23520623 |
 |    5    | Dương Thông Tuệ        |   [tueduonggg1203](https://github.com/tueduonggg1203)   | 23521734 |
+
+> **Note**
+>
+> ### Part 1:
+>
+> -   Nguyễn Thái Gia Nguyễn: `1. Bai*3`, `1. Bai*8`
+> -   Ngô Minh Huy: `1. Bai*4`, `1. Bai*9`
+>
+> ### Part 2:
+>
+> -   Nguyễn Thái Gia Nguyễn: `2. Bai*4`, `2. Bai*9`
+> -   Ngô Minh Huy: `2. Bai*3`, `2. Bai*8`
