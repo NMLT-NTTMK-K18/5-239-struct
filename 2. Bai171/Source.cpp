@@ -17,7 +17,7 @@ DATHUC operator*(DATHUC, DATHUC);
 int LonNhat(int, int);
 void GiamBac(DATHUC &);
 
-DATHUC Thuong(DATHUC, DATHUC);
+DATHUC operator/(DATHUC, DATHUC);
 
 int main()
 {
@@ -25,7 +25,7 @@ int main()
 	Nhap(f);
 	DATHUC g;
 	Nhap(g);
-	Xuat(Thuong(f, g));
+	Xuat(f / g);
 	return 0;
 }
 
@@ -91,7 +91,7 @@ DATHUC operator*(DATHUC f, DATHUC g)
 			temp.a[i + j] += f.a[i] * g.a[j];
 	return temp;
 }
-DATHUC Thuong(DATHUC f, DATHUC g)
+DATHUC operator/(DATHUC f, DATHUC g)
 {
 	DATHUC bichia = f;
 	DATHUC chia = g;
