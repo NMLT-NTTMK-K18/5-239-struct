@@ -15,6 +15,7 @@ permissions: write-all
 env:
   RAR_SOURCE_NAME: ${{ vars.RAR_SOURCE_NAME }}
   GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  GITHUB_REPO: ${{ github.GITHUB_REPOSITORY }}
 
 jobs:
   rar-source:
@@ -30,7 +31,7 @@ jobs:
       - name: RAR source
         run: |
           touch ${{ env.RAR_SOURCE_NAME }}.txt
-          echo "https://github.com/${{ github.GITHUB_REPOSITORY }}/" > ${{ env.RAR_SOURCE_NAME }}.txt
+          echo "https://github.com/${{ env.GITHUB_REPOSITORY }}/" > ${{ env.RAR_SOURCE_NAME }}.txt
           mkdir ${{ env.RAR_SOURCE_NAME }}
           cp -r *Bai* *.sln ${{ env.RAR_SOURCE_NAME }}.txt ${{ env.RAR_SOURCE_NAME }} 
           rar a -r ${{ env.RAR_SOURCE_NAME }}.rar ${{ env.RAR_SOURCE_NAME }}

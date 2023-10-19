@@ -41,4 +41,5 @@ jobs:
         run: |
           rm -rf checkWorkingProgress.py
           wget https://github.com/KevinNitroG/My-Scripts/raw/main/Linux/commitAndPush.sh -O commitAndPush.sh
+          chmod +x ./commitAndPush.sh
           ./commitAndPush.sh
