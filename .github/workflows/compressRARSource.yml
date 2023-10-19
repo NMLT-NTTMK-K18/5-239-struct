@@ -46,3 +46,14 @@ jobs:
           overwrite: true
           promote: true
           body: "Rar source code để nộp bài, không bao gồm các file ngoài Visual Studio"
+
+      - name: Release .txt
+        uses: svenstaro/upload-release-action@master
+        with:
+          repo_token: ${{ env.GITHUB_TOKEN }}
+          file: ${{ env.RAR_SOURCE_NAME }}.txt
+          tag: RAR
+          release_name: RAR Source Code
+          overwrite: true
+          promote: true
+          body: "Rar source code để nộp bài, không bao gồm các file ngoài Visual Studio"
