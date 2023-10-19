@@ -40,6 +40,16 @@ jobs:
         continue-on-error: true
         run: |
           rm -rf checkWorkingProgress.py
-          wget https://github.com/KevinNitroG/My-Scripts/raw/main/Linux/commitAndPush.sh -O commitAndPush.sh
-          chmod +x ./commitAndPush.sh
-          ./commitAndPush.sh
+          if [ -n "${{ env.EMAIL }}" ]; then
+          git config --global user.email ${{ env.EMAIL }}
+          else
+              git config --global user.email "action@github.com"
+          fi
+          if [ -n "${{ env.USERNAME }}" ]; then
+              git config --global user.name ${{ env.USERNAME }}
+          else
+              git config --global user.name "GitHub Action"
+          fi
+          git add .
+          git commit -m "✅ Auto update Working Progress"
+          git push
