@@ -104,27 +104,6 @@ DATHUC operator*(DATHUC f, DATHUC g)
 	return temp;
 }
 
-// DATHUC operator/(DATHUC f, DATHUC g)
-// {
-// 	DATHUC bichia = f;
-// 	DATHUC chia = g;
-// 	DATHUC temp;
-// 	temp.n = f.n - g.n;
-// 	for (int i = temp.n; i >= 0; i--)
-// 		temp.a[i] = 0;
-// 	while (bichia.n >= chia.n)
-// 	{
-// 		DATHUC tg;
-// 		tg.n = bichia.n - chia.n;
-// 		for (int i = tg.n; i >= 0; i--)
-// 			tg.a[i] = 0;
-// 		tg.a[tg.n] = bichia.a[bichia.n] / chia.a[chia.n];
-// 		DATHUC tru = tg * bichia;
-// 		temp = temp + tg;
-// 	}
-// 	return temp;
-// }
-
 DATHUC operator/(DATHUC f, DATHUC g)
 {
 	DATHUC thuong;
