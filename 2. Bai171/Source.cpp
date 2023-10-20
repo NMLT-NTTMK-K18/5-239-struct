@@ -53,7 +53,7 @@ void Xuat(DATHUC f)
 	for (int i = f.n; i >= 1; i--)
 	{
 		cout << f.a[i];
-		cout << "x^" << i;
+		cout << "x^" << i << " + ";
 	}
 	cout << f.a[0];
 }
@@ -114,12 +114,16 @@ DATHUC operator/(DATHUC f, DATHUC g)
 	{
 		thuong.a[i] = f.a[i + g.n] / g.a[g.n];
 		DATHUC temp;
-		temp.n = i + g.n;
+		temp.n = i;
 		for (int i = temp.n; i >= 0; i--)
 			temp.a[i] = 0;
-		for (int j = temp.n; j >= i; j--)
-			temp.a[j] = thuong.a[i] * g.a[temp.n - i];
-		f = f - temp;
+		temp.a[i] = thuong.a[i];
+		DATHUC du;
+		du.n = i + g.n;
+		for (int i = du.n; i >= 0; i--)
+			du.a[i] = 0;
+		du = temp * g;
+		f = f - du;
 	}
 	return thuong;
 }
