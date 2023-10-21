@@ -14,8 +14,11 @@ int ktDuong(PHANSO);
 int DemDuong(PHANSO[], int);
 
 int main()
-{
-
+{	
+	PHANSO a[100];
+	int n;
+	Nhap(a,n);
+	cout << DemDuong(a,n);
 	return 0;
 }
 

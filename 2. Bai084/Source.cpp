@@ -14,7 +14,9 @@ void Xuat(THOIGIAN);
 
 int main()
 {
-
+	THOIGIAN x;
+	Nhap(x);
+	Xuat(x);
 	return 0;
 }
 

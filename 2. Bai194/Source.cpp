@@ -16,7 +16,10 @@ SOPHUC DauTien(SOPHUC[], int);
 
 int main()
 {
-
+	SOPHUC a[100];
+	int n;
+	Nhap(a, n);
+	Xuat(DauTien(a, n));
 	return 0;
 }
 
