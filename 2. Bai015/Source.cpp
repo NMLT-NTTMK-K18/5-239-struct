@@ -1,8 +1,9 @@
-#include <iostream>
-using namespace std;
+void Nhap(DIEM&);
 
-int main()
+void Nhap(DIEM& P)
 {
-
-	return 0;
+	cout << "Nhap x: ";
+	cin >> P.x;
+	cout << "Nhap y: ";
+	cin >> P.y;
 }
