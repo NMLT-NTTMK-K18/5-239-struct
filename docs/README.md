@@ -1,6 +1,6 @@
 # 5 - 258 - STRUCT 🫠
 
-![STT - 5](https://img.shields.io/badge/STT-5-82A0D8?style=for-the-badge)
+![STT - 5](https://img.shields.io/badge/STT-5-EDB7ED?style=for-the-badge)
 ![Bài tập - 258 Struct](https://img.shields.io/badge/b%C3%A0i_t%E1%BA%ADp-258_struct-8DDFCB?style=for-the-badge)
 ![Ải - 7](https://img.shields.io/badge/%E1%BA%A3i-7-ECEE81?style=for-the-badge)
 
