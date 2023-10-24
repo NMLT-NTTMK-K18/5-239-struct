@@ -1,6 +1,8 @@
-# 258 STRUCT 🫠
+# 5 - 258 - STRUCT 🫠
 
-**Ải 7:** Bài tập thực hành 5 - `258 Struct` _(19 + 239)_
+![STT - 5](https://img.shields.io/badge/STT-5-EDB7ED?style=for-the-badge)
+![Bài tập - 258 Struct](https://img.shields.io/badge/b%C3%A0i_t%E1%BA%ADp-258_struct-8DDFCB?style=for-the-badge)
+![Ải - 7](https://img.shields.io/badge/%E1%BA%A3i-7-ECEE81?style=for-the-badge)
 
 ---
 
@@ -10,9 +12,11 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/NMLT-NTTMK-K18/5-258-struct?style=for-the-badge&color=D8B4F8)
 [![GitHub contributors](https://img.shields.io/github/contributors/NMLT-NTTMK-K18/5-258-struct?style=for-the-badge&color=FBF0B2)](../../../graphs/contributors)
 
-[![WorkedProject Badge](https://img.shields.io/badge/worked_project-150%2F258-82A0D8?style=for-the-badge)](./UnworkedProject.md)
+[![WorkedProject Badge](https://img.shields.io/badge/worked_project-183%2F258-82A0D8?style=for-the-badge)](./UnworkedProject.md)
 [![RAR Source](https://img.shields.io/badge/rar_source-download-FF8080?style=for-the-badge)](../../../releases/download/RAR/23520161_23520730_23520623_23521049_23521734_BT05.rar/)
 [![TXT Github Link](https://img.shields.io/badge/txt_github_link-download-8CB369?style=for-the-badge)](../../../releases/download/RAR/23520161_23520730_23520623_23521049_23521734_BT05.txt/)
+
+---
 
 ## MEMBERS
 

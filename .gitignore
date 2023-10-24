@@ -3,18 +3,17 @@
 .vscode
 **/*test*
 **/*temp*
-**/*.inp
-**/*.out
-
-# Scripts
-scripts/build/*
-scripts/dist/*
-scripts/*.spec
 
 # VS
 **/x64
-*Bai*/*.exe
-COPY
+
+# Code runner
+**/*.exe
+
+# CodeBlocks
+**/*bin
+**/*obj
+**/TestCodeBlock*
 
 # Python
 **/*.py
