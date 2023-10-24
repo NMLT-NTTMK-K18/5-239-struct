@@ -51,7 +51,10 @@ void Xuat(PHANSO x)
 void Xuat(PHANSO a[], int n)
 {
 	for (int i = 0; i < n; i++)
+	{
 		Xuat(a[i]);
+		cout << endl;
+	}
 }
 
 int SoSanh(PHANSO x, PHANSO y)
