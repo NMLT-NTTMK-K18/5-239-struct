@@ -1,34 +1,43 @@
 #include <iostream>
 using namespace std;
 
-struct PhanSo
+struct phanso
 {
 	int Tu;
 	int Mau;
 };
-typedef struct PhanSo PHANSO;
+typedef struct phanso PHANSO;
 
-void Nhap(PHANSO &);
+void Nhap(PHANSO&);
+void Xuat(PHANSO);
 int UCLN(int, int);
-int ktToiGian(PHANSO);
+bool KtToiGian(PHANSO);
 
 int main()
 {
-	PHANSO x;
-	Nhap(x);
-	if (ktToiGian(x))
-		cout << "Toi Gian";
+	PHANSO M;
+	Nhap(M);
+	Xuat(M);
+
+	if (KtToiGian(M))
+		cout << "\nPhan so toi gian";
 	else
-		cout << "Khong Toi Gian";
+		cout << "\nPhan so chua toi gian";
 	return 0;
 }
 
-void Nhap(PHANSO &x)
+void Nhap(PHANSO& x)
 {
-	cout << "\nNhap Tu:";
+	cout << "Nhap tu: ";
 	cin >> x.Tu;
-	cout << "Nhap Mau:\n";
+	cout << "Nhap mau: ";
 	cin >> x.Mau;
+}
+
+void Xuat(PHANSO x)
+{
+	cout << "\nTu: " << x.Tu;
+	cout << "\nMau: " << x.Mau;
 }
 
 int UCLN(int a, int b)
@@ -43,9 +52,9 @@ int UCLN(int a, int b)
 	return a + b;
 }
 
-int ktToiGian(PHANSO x)
+bool KtToiGian(PHANSO x)
 {
 	if (UCLN(x.Tu, x.Mau) == 1)
-		return 1;
-	return 0;
+		return true;
+	return false;
 }

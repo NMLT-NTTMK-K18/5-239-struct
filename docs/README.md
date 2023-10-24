@@ -1,6 +1,6 @@
 # 258 STRUCT 🫠
 
-**Ải 7:** Bài tập thực hành 5 - `258 Struct` _(19 + 238)_
+**Ải 7:** Bài tập thực hành 5 - `258 Struct` _(19 + 239)_
 
 ---
 
@@ -10,7 +10,7 @@
 ![GitHub repo size](https://img.shields.io/github/repo-size/NMLT-NTTMK-K18/5-258-struct?style=for-the-badge&color=D8B4F8)
 [![GitHub contributors](https://img.shields.io/github/contributors/NMLT-NTTMK-K18/5-258-struct?style=for-the-badge&color=FBF0B2)](../../../graphs/contributors)
 
-[![WorkedProject Badge](https://img.shields.io/badge/worked_project-103%2F258-82A0D8?style=for-the-badge)](./UnworkedProject.md)
+[![WorkedProject Badge](https://img.shields.io/badge/worked_project-171%2F258-82A0D8?style=for-the-badge)](./UnworkedProject.md)
 [![RAR Source](https://img.shields.io/badge/rar_source-download-FF8080?style=for-the-badge)](../../../releases/download/RAR/23520161_23520730_23520623_23521049_23521734_BT05.rar/)
 [![TXT Github Link](https://img.shields.io/badge/txt_github_link-download-8CB369?style=for-the-badge)](../../../releases/download/RAR/23520161_23520730_23520623_23521049_23521734_BT05.txt/)
 
