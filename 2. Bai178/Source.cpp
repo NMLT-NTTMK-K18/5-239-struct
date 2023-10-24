@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 using namespace std;
 
 struct Diem
@@ -8,15 +9,14 @@ struct Diem
 };
 typedef struct Diem DIEM;
 
-void Nhap(DIEM&);
-void Nhap(DIEM[], int&);
+void Nhap(DIEM &);
+void Nhap(DIEM[], int &);
 
 void Xuat(DIEM);
 void Xuat(DIEM[], int);
 
-
 float KhoangCach(DIEM, DIEM);
-void GanNhauNhat(DIEM[], int,DIEM&,DIEM&);
+void GanNhauNhat(DIEM[], int, DIEM &, DIEM &);
 
 int main()
 {
@@ -29,7 +29,7 @@ int main()
 	return 0;
 }
 
-void Nhap(DIEM& x)
+void Nhap(DIEM &x)
 {
 	cout << "\nNhap x: ";
 	cin >> x.x;
@@ -37,7 +37,7 @@ void Nhap(DIEM& x)
 	cin >> x.y;
 }
 
-void Nhap(DIEM a[], int& n)
+void Nhap(DIEM a[], int &n)
 {
 	cout << "Nhap n: ";
 	cin >> n;
@@ -67,12 +67,12 @@ float KhoangCach(DIEM P, DIEM Q)
 	return sqrt((P.x - Q.x) * (P.x - Q.x) + (P.y - Q.y) * (P.y - Q.y));
 }
 
-void GanNhauNhat(DIEM a[], int n,DIEM& P, DIEM&	Q)
+void GanNhauNhat(DIEM a[], int n, DIEM &P, DIEM &Q)
 {
 	P = a[0];
 	Q = a[1];
-	for(int i=0;i<n;i++)
-		for(int j=i+1;j<n-1;j++)
+	for (int i = 0; i < n; i++)
+		for (int j = i + 1; j < n - 1; j++)
 			if (KhoangCach(a[i], a[j]) < KhoangCach(P, Q))
 			{
 				P = a[i];
