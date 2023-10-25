@@ -12,15 +12,15 @@ typedef struct ThoiGian THOIGIAN;
 
 void Nhap(THOIGIAN&);
 void Xuat(THOIGIAN);
-THOIGIAN KeTiep(THOIGIAN);
+THOIGIAN TruocDo(THOIGIAN&);
 
 int main()
 {
 	THOIGIAN T;
 	cout << "Nhap thoi gian T: " << endl;
 	Nhap(T);
-
-	cout << "Thoi gian T vua nhap: " << endl;
+	TruocDo(T);
+	cout << "Thoi gian T truoc do la: " << endl;
 	Xuat(T);
 
 	return 0;
@@ -43,7 +43,7 @@ void Xuat(THOIGIAN x)
 	cout << "Giay: " << x.Giay << endl;
 }
 
-THOIGIAN TruocDo(THOIGIAN x)
+THOIGIAN TruocDo(THOIGIAN& x)
 {
 	x.Giay--;
 	if (x.Giay < 0)
