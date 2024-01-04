@@ -29,7 +29,7 @@
 |    4    | Ngô Minh Huy           |      [MinhHuy1507](https://github.com/MinhHuy1507)      | 23520623 |
 |    5    | Dương Thông Tuệ        |   [tueduonggg1203](https://github.com/tueduonggg1203)   | 23521734 |
 
-> **Note**
+> [!NOTE]
 >
 > ### Part 1:
 >
